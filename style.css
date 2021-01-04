@@ -1,5 +1,6 @@
 body{
     font-family: 'Redressed', cursive;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -15,4 +16,43 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-part{
+    
+    background-image: url(Images/top-banner.png);
+    /*backgroud image asbe na karon image er kono height nai ,oije amra oija theke float left deyar foler ekta por ekta 
+    dilam er fole height na nosto hoye gese tai ja korte hbe section e jeye website er ekta height dite hobe jemon 
+    500 px*/
+    background-repeat: no-repeat;
+    /*ekan deka jache konay puron hoy nai,tai body tag e kono margin deya jabe na,margin: 0*/
+   
+}
+p{
+    color: dimgrey;
+}
+section
+{
+    height: 500px;
+    padding bottom: 150px;
+}
+.button
+{
+    text-decoration: none;
+    background-color: orange;
+    background-image: linear-gradient(lightsalmon, tomato);
+   
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.dream-part
+{
+    background-image: url(Images/dream-bg.png);
+    /*backgroud image asbe na karon image er kono height nai ,oije amra oija theke float left deyar foler ekta por ekta 
+    dilam er fole height na nosto hoye gese tai ja korte hbe section e jeye website er ekta height dite hobe jemon 
+    500 px*/
+    background-repeat: no-repeat;
+    /*ekan deka jache konay puron hoy nai,tai body tag e kono margin deya jabe na,margin: 0*/
+    background-position: right;
 }
